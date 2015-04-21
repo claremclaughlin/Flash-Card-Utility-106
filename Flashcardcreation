@@ -9,3 +9,8 @@ def create_flashcard():
 #asks user to input second side of flashcard
 #saves front and back in the appropriate dictionary
   return None
+
+def sort_cards_alpha(dict_cards):
+  x = sorted(dict_cards.items())
+  for t in x: 
+ 		print str(t[0]) + ": " + str(t[1])
